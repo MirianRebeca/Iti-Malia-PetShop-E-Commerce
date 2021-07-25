@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iti Malia | PetShop</title>
+    <link rel="stylesheet" href="stryle/style.css">
+    <link rel="stylesheet" href="stryle/popup.css">
+    <link rel="stylesheet" href="stryle/responsive.css">
+    <link rel="stylesheet" href="stryle/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="stryle/owl/owl.theme.default.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assents/logo.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="freteContainer">
+            <h4 class="frete">
+               Frete Grátis acima de R$49 - Cupom BLACKCAT
+            </h4>
+        </div>
+        <div class="logo">
+            <img class="logoImg" src="./assents/Sem título.png" alt="Logo Iti Malia" />
+            <div id='search-box'>
+                <form action='' id='search-form' method='' target='_top'>
+                    <input id='search-text' placeholder='Busque um produto' type='text'/>
+                    <button id='search-button' type='submit'><span>Buscar</span></button>
+                </form>
+            </div>
+            <div>
+                <img class="login" src="./assents/istockphoto-1249783457-1024x1024.PNG" alt="Carrinho" />
+                <img class="login" src="./assents/login.PNG" alt="Login" onclick="abrir()" />
+            </div>
+        </div> 
+        
+        <div class="itensMenu">
+            <a class="menuItem" href="#" >Início</a>
+            <a class="menuItem" href="./produtos.html">Produtos</a>
+            <a class="menuItem" onclick="scrollFunction()">Nosso Clientes</a>  
+        </div>        
+    </header>
+        <div class="containerBanner">
+            <img class="banner" id="banner">  
+        </div>
+        <section class="containerCarousel">
+            <h1 id="anuncio">Tudo que seu pet precisa em um só lugar:</h1>
+                <div id="produtos">
+                        <div class="produtosItem">                     
+                            <h3 class="tituloProduto">Higiene e Cuidados</h3>
+                            <h4 class="subtituloProduto">Shampoo, areia e tapete higiênico, creme dental, pentes e escovas e muito mais.</h4>
+                            <img class="imgProduto" src="assents/higiene.jpg" alt="Produtos de higiene para pets" srcset="">                   
+                            <a id="verOfertas" href="./produtos.html">Ver Ofertas</a>
+                        </div>
+                        <div class="produtosItem"> 
+                            <h3 class="tituloProduto">Ração e Petiscos</h3>
+                            <h4 class="subtituloProduto">Rações Secas, latas, saches, petiscos além de acessórios como comedouros e bebedouros.</h4>
+                            <img class="imgProduto" src="assents/alimentos.jpg" alt="Alimentos para pets" srcset="">
+                            <a id="verOfertas" href="./produtos.html">Ver Ofertas</a>
+                        </div>
+                        <div class="produtosItem">                                      
+                            <h3 class="tituloProduto">Brinquedos</h3>
+                            <h4 class="subtituloProduto">Brinquedos interativos, pelúcias, bolinhas, arranhadores, tudo que seu pet precisa pra ser feliz!</h4>
+                            <img class="imgProduto" src="assents/brinquedos.jpg" alt="Brinqueds para pets" srcset="">
+                            <a id="verOfertas" href="./produtos.html">Ver Ofertas</a>
+                        </div>
+                    </div>
+                    <div id="produtos">
+                        <div class="produtosItem"> 
+                            <h3 class="tituloProduto">Roupinhas</h3>
+                            <h4 class="subtituloProduto">As mais variadas roupinhas para manter seu pet quentinho e estiloso!</h4>
+                            <img class="imgProduto" src="assents/roupinhas.jpg" alt="Roupinhas para pets" srcset="">
+                            <a id="verOfertas" href="./produtos.html">Ver Ofertas</a>
+                        </div>
+                        <div class="produtosItem"> 
+                            <h3 class="tituloProduto">Casinhas</h3>
+                            <h4 class="subtituloProduto">Em diferentes materiais, modelos e tamanhos para agradar todos os pets!</h4>
+                            <img class="imgProduto" src="assents/casinha.jpg" alt="Casinhas para pets" srcset="">
+                            <a id="verOfertas" href="./produtos.html">Ver Ofertas</a>
+                        </div>
+                        <div class="produtosItem"> 
+                            <h3 class="tituloProduto">Medicamentos</h3>
+                            <h4 class="subtituloProduto">Rações medicamentosas, suplementos e remédios para manter seu pet saudável.</h4>
+                            <img class="imgProduto" src="assents/farmacia.jpg" alt="Medicamento para pets" srcset="">    
+                            <a id="verOfertas" href="./produtos.html">Ver Ofertas</a>
+                        </div>
+                    </div>
+        </section>
+        
+        </section>
+        <section class="containerClientes">
+            <h1 id="anuncio">Confira as avaliação dos nossos clientes:</h1>
+            <div class="carousel">
+                <div id="carousel2" class="owl-carousel owl-theme">
+                        <div class="item">   
+                            <div class="sub-cliente">                
+                                <h3 class="titleCarousel">Maria Augusta</h3>
+                                <h4 class="subtitleCarousel">Chegou antes do prazo de entrega e super bem embalado. Adorei!</h4>
+                            </div>  
+                            <img class="imgEstrelas" src="assents/estrelas.png" alt="" >
+                        </div>
+                        <div class="item">                     
+                            <div class="sub-cliente">  
+                                <h3 class="titleCarousel">Sandra Guimaraes</h3>
+                                <h4 class="subtitleCarousel">Melhor preço e prazo de entrega da região. Super indico!</h4>
+                            </div>  
+                            <img class="imgEstrelas" src="assents/estrelas.png" alt="" >
+                        </div>
+                        <div class="item">
+                            <div class="sub-cliente">                        
+                                <h3 class="titleCarousel">Alberto Lima</h3>
+                                <h4 class="subtitleCarousel">A caminha é super macia e resistente, superou minhas expectativas! A Lola amou!</h4>
+                            </div>  
+                            <img class="imgEstrelas" src="assents/estrelas.png" alt="" >
+                        </div>
+                        <div class="item"> 
+                            <div class="sub-cliente">                       
+                                <h3 class="titleCarousel">Jordano Lorenzo</h3>
+                                <h4 class="subtitleCarousel">Atendimento nota mil! Tive um probleminha mas logo me atenderam e resolveram na hora, vou comprar sempre!</h4>
+                            </div>  
+                            <img class="imgEstrelas" src="assents/estrelas.png" alt="" >
+                        </div> 
+                </div>
+            </div>
+        </section>
+
+    
+        <div id="popup" class="popup">  
+            <a id="close-popup" style="z-index: 5"  onclick="fechar()">x</a>
+            <Span id="title-popup">Cadastre-se e aproveite nossas Super Ofertas!</Span>
+            <form id='formularioCadastro'>
+                <span id="subtitle-popup">Nome:</span>
+                <input id='textNome' placeholder='' type='text'>
+                <span id="subtitle-popup">E-mail:</span>
+                <input id='textEmail' placeholder='' type='text'/>
+                <span id="subtitle-popup">Endereço de entrega:</span>
+                <input id='textEnd' placeholder='' type='text'/>
+                <span id="subtitle-popup">Senha:</span>
+                <input id='textSenha' placeholder='' type='password'/>
+                <div id="alertaEmail">Informações invalidas</div>
+                <div>
+                    <input type="checkbox"/>
+                    <span id="subtitle-popup">Rebecer ofertas e promoções por e-mail</span>
+                </div>
+            </form> 
+            <button id='botaoCadastrar' type='button'><span>Cadastrar</span></button>  
+        </div>
+
+        <footer>Promoção válida somente para a loja online enquando durarem os estoques.</footer>    
+   
+        <script type="text/javascript" src="script/script.js"></script>
+        <script src="script/owl/jquery.min.js"></script>
+        <script src="script/owl/owl.carousel.min.js"></script>
+        <script src="script/owl/setup.js"></script>      
+</body>
+</html>

@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#freteContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 4vh;
+    background-color: rgb(10, 10, 10);  
+    color: rgb(223, 240, 240);
+    font-size: small;
+    align-items: center;
+}
+    
+.logo {
+    background-color: rgb(39, 172, 172);
+    padding: 5px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.logoImg{
+    height: 10vh;
+}
+
+.login{
+    margin:0 20px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.itensMenu{
+    background-color: rgb(36, 141, 141);
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    padding:0 4vw;
+    justify-content: space-evenly;
+} 
+
+.menuItem{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(21, 22, 24);
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+}
+
+.banner{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border-top: 1px solid rgb(39, 172, 172);
+    border-bottom: 1px solid rgb(39, 172, 172);
+    padding-top: 128px;
+}
+
+#search-box {
+    position: relative;
+    width: 40%;
+    margin: 0px;
+}
+
+#search-form {
+    height: 35px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#search-text {
+    font-size: 14px;
+    color: #ddd;
+    border-width: 0;
+    background: transparent;
+}
+
+#search-box input[type="text"] {
+    width: 90%;
+    padding: 11px 0 12px 1em;
+    color: #333;
+    outline: none;
+}
+
+#search-button {
+    position: absolute;
+    height: 35px;
+    width: 80px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    border-width: 0;
+    background-color: #6e6e6e;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+.containerCarousel, .containerClientes, footer{ 
+    background-color: rgb(43, 43, 43);
+    border-left: 8vw rgb(56, 56, 56)solid;
+    border-right: 8vw rgb(56, 56, 56)solid;
+    height: auto;  
+    padding: 0px;   
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+    color: white;
+    background-color: #333;
+    padding: 5px;
+    border: 1px solid rgb(39, 172, 172);
+    border-radius: 5px 5px 0px 0px;
+    width: 80px;
+  }
+ 
+  .item{    
+      padding: 5%;
+      height: auto;
+      text-align: center;
+      border-radius: 5%;
+      background-color: rgb(78, 78, 78);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .titleCarousel, .tituloProduto{
+      margin: 0px;
+      font-size: 30px;
+      font-family: 'Fredoka One', cursive;
+      font-weight: 100;
+      color: rgb(39, 172, 172);
+    }
+
+  .imgProduto{
+      border-radius: 20%;
+      width: 100%;
+      height: auto;
+      border: 2px solid rgb(194, 71, 14);
+      margin-bottom: -1.5vh; 
+
+  }
+  #produtos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .produtosItem{
+      background: rgb(68, 68, 68);
+      padding: 3vh;
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 20px;
+      text-align: center;
+  }
+
+  .subtituloProduto{
+      height: 10vh;
+      font-weight: 800;
+      color: #0c0c0c;
+  }
+
+  #anuncio{
+      color: #fff;
+      font-size: 38px;
+      margin-left: vh;
+      padding: 10px;
+      text-align: center;
+  }
+
+  #verOfertas{
+      background-color:rgb(194, 71, 14);
+      padding: 15px;
+      color: #fff;
+      border-radius:20px;
+      font-weight: 700;
+      text-decoration: none;
+      width: fit-content;
+      
+  }
+  
+  #carousel2  .item {
+    background-color: rgb(43, 43, 43);
+    width: 70%;
+    padding: 0px;
+  }
+
+  .sub-cliente{
+    background-color: rgb(58, 58, 58);
+    border-radius: 20px;
+    width: 100%;
+    margin-left: 20%;
+  }
+      
+  #carousel2 .titleCarousel, .subtitleCarousel {
+    padding-top: 20px;
+    margin: 0px 20px 0px 20px;
+    text-align: left;
+    font-style: italic;
+  }
+
+  #carousel2 .subtitleCarousel{
+      color:#b8b8b8;
+      font-weight: 600;
+      padding: 40px;
+  }
+
+  .imgEstrelas{
+      width: 12vw;
+      border-radius: 30px;
+      margin-top: -2vh;
+      background-color: rgb(83, 83, 83);
+  }
+
+  footer{
+      font-weight: 500;
+  }
+
+  header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    z-index: 9;
+  }
+
+  
+

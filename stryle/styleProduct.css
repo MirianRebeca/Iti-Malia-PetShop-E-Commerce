@@ -1,0 +1,101 @@
+        * {
+            margin: 0;
+            padding: 0; 
+            font-family: Arial, Helvetica, sans-serif;  
+        }
+       
+        main{
+            background-color: rgb(43, 43, 43);
+            border-left: 8vw rgb(56, 56, 56)solid;
+            border-right: 8vw rgb(56, 56, 56)solid;
+            height: auto;  
+            padding-top: 180px;   
+        }
+    
+        #products{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;    
+        }
+
+        .card{ 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1.5rem;
+            height: 70vh;
+            width: 22vw;
+            justify-content: space-around;
+            margin-bottom: 2rem;
+            background-color: #333;
+            text-align: center;
+        }
+      
+        .imgProd{
+            height: 40vh;
+        }
+
+        #titleProd{
+            font-size: 1.95rem;
+            color: rgb(39, 172, 172);
+        }
+
+        #descProp{
+            font-size: 1.2rem;
+            width: 19vw;
+            border: none;
+            color: rgb(153, 153, 153);
+        }
+
+        .btn{
+            border: none;
+            padding: 0.3rem;
+            color: #111;
+            font-weight: 800;
+            font-size: 1rem;
+            cursor: pointer;
+            width: 70%;
+            background-color: rgb(194, 71, 14);
+            border: 2px solid rgb(32, 32, 32);
+        }
+
+        .price{
+            font-size: 1.7rem;
+            border: none;
+            width: 50%;
+            margin: 0%;
+        }
+
+        .controls{
+            cursor: pointer;
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+            background-color:rgb(27, 97, 97);
+            border: 2px solid rgb(32, 32, 32);
+        }
+
+        .qtyProd{
+            font-size: 1.2rem;
+            height: 1.7rem;
+            color: #fff;
+        }
+     
+        .qtProd{
+            color: #333;
+            background:rgb(34, 143, 143);
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+            padding: 0 0.5rem;
+            display: block;
+        }
+         .carrinhoItens{
+            position: absolute;
+            background-color: rgb(192, 78, 32);
+            font-weight: 800;
+            font-size: large;
+            padding:2px 9px;
+            border-radius: 50px;
+            margin-left: -40px;
+            margin-top: -7px;
+        }

@@ -1,0 +1,118 @@
+[{
+    "id":1,
+    "title":"Ração Pedigree",
+    "desc":"Cães Adultos Raças Pequenas 15 Kg",
+    "img":"produto1.png",
+    "price":129.90
+},{
+    "id":2,
+    "title":"Sache Whiskas",
+    "desc":"Ração úmida wiskas Frango ao Molho 85g",
+    "img":"produto2.png",
+    "price":2.18
+},{
+    "id":3,
+    "title":"Ração Premier",
+    "desc":"Ambientes internos - Dermacare 2.5Kg",
+    "img":"produto3.png",
+    "price":79.90
+    
+},{
+    "id":4,
+    "title":"Kit Power Dog",
+    "desc":"Shampoo Antiparasitório + Cond Power 500ml + Brinde",
+    "img":"produto4.png",
+    "price":26.71
+},{
+    "id":5,
+    "title":"Desinfetante Vet+20",
+    "desc":"Bactericida Herbal para desinfecção de ambientes",
+    "img":"produto5.png",
+    "price":38.74
+},{
+    "id":6,
+    "title":"Rasqueadeira",
+    "desc":"Rasqueadeira Plana S/Ponta Bola Dog Face Uau+ P/M/G",
+    "img":"produto6.png",
+    "price":28.30
+},{
+    "id":7,
+    "title":"Arranhador Luppet",
+    "desc":"Brinquedo Arranhador Luppet Conforto redondo rosa",
+    "img":"produto7.png",
+    "price":34.10
+},{
+    "id":8,
+    "title":"Pelucia Octopus",
+    "desc":"Brinquedo Chalesco Pelúcia Octopus macio e resistente",
+    "img":"produto8.png",
+    "price":21.50
+}
+,{
+    "id":9,
+    "title":"Mordedor",
+    "desc":"Brinquedo American Pets Swift",
+    "img":"produto9.png",
+    "price":22.67
+}
+,{
+    "id":10,
+    "title":"Roupa Cirúrgica",
+    "desc":"Roupa Pós Cirúrgica Disney Mickey Azul Tam. 00 ao 07",
+    "img":"produto10.png",
+    "price":23.45
+}
+,{
+    "id":11,
+    "title":"Casaco Moletom",
+    "desc":"Casaco Moletom para Cães e Gatos Tam. 03 ao 09",
+    "img":"produto11.png",
+    "price":40.45
+}
+,{
+    "id":12,
+    "title":"Pijama",
+    "desc":"Pijama Matelassê Estampa Cinza Tam. 00 ao 07",
+    "img":"produto12.png",
+    "price":33.45
+}
+,{
+    "id":13,
+    "title":"Barraca Hello Pet ",
+    "desc":"Em Algodão Cinza com Verde para Cães e Gatos",
+    "img":"produto13.png",
+    "price":205.91
+}
+,{
+    "id":14,
+    "title":"Casa Durahous",
+    "desc":"Casinha para Cães com telhado com tratamento UV",
+    "img":"produto14.png",
+    "price":46.14
+},{
+    "id":15,
+    "title":"Cama Luppet",
+    "desc":"Conforto Iglu 2 em 1 Flamingo Tam G",
+    "img":"produto15.png",
+    "price": 164.45
+},{
+    "id":16,
+    "title":"Vermivet",
+    "desc":"Vermífugo Biovet Vermivet Composto 600 mg para Cães e Gatos",
+    "img":"produto16.png",
+    "price": 6.99
+},{
+    "id":17,
+    "title":"Biodex ",
+    "desc":"Anti-Inflamatório Biofarm Biodex com 20 comprimidos ",
+    "img":"produto17.png",
+    "price":13.90
+},{
+    "id":18,
+    "title":"Otovet",
+    "desc":"Otovet Limp 10ml Biofarm Higienizador Auricular",
+    "img":"produto18.png",
+    "price": 25.00
+}
+
+]
